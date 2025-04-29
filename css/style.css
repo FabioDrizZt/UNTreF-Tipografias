@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.roboto-font {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* Fuentes de Barbie */
+@font-face {
+  font-family: 'BarbieFont1';
+  src: url('../fonts/Retro_Dolly.otf');
+}
+
+.barbie-font {
+  font-family: 'BarbieFont1', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 46px;
+  color: #ff69b4; /* Color rosa Barbie */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+}
+
+@font-face {
+  font-family: 'HarryFont';
+  src: url('../fonts/HARRYP__.TTF');
+}
+
+.harry-font {
+  font-family: 'HarryFont', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 46px;
+  color: #ffcc00; /* Color dorado */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+}
+
+:root {
+  --color-fondo: #f0f0f0; /* Color de fondo */
+  --color-texto: #333; /* Color de texto */
+  --color-parrafos: #666; /* Color de párrafos */
+  --color-enlace: #0066cc; /* Color de enlaces */
+  --color-enlace-hover: #00509e; /* Color de enlaces al pasar el ratón */
+  --color-sombra: rgba(0, 0, 0, 0.5); /* Color de sombra */
+  --font-primary: 'Arial', sans-serif; /* Fuente primaria */
+  --font-secondary: 'Georgia', serif; /* Fuente secundaria */
+  --font-code: 'Courier New', monospace; /* Fuente para código */
+}
+
+body{
+  font-family: "Times New Roman", Times, serif; /* Fuente por defecto */
+  font-weight: 100;
+  font-size: 16px; /* Tamaño de fuente por defecto */
+
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: var(--font-primary); /* Fuente para encabezados */
+  font-weight: bold; /* Negrita para encabezados */
+  color: var(--color-texto); /* Color de texto para encabezados */
+}
+p {
+  font-family: var(--font-secondary); /* Fuente para párrafos */
+  font-size: 1em; /* Tamaño de fuente para párrafos */
+  color: var(--color-parrafos); /* Color de texto para párrafos */
+}
+.sombreado {
+    text-shadow: 3px 3px 5px #00f; /* Sombra de texto */
+}
+.espaciado-letras {
+    letter-spacing: 10px; /* Espaciado entre letras */
+}
+.espaciado-palabras {
+    word-spacing: 20px; /* Espaciado entre palabras */
+}
+.alineacion-derecha {
+    text-align: right;
+}
+.alineacion-centro {
+    text-align: center;
+}
+.alineacion-izquierda {
+    text-align: left; /* Valor por defecto */
+}
+.alineacion-justificada {
+    text-align: justify;
+}
+.subrayado {
+    text-decoration: underline;
+}
+.subrayado-encima{
+    text-decoration: overline ; 
+}
+.tachado {
+    text-decoration: line-through;
+}
+.parpadeante{
+  text-decoration: blink;
+}
+.mayusculas {
+    text-transform: uppercase;
+}
+.minúsculas {
+    text-transform: lowercase;
+}
+.oracion {
+    text-transform: capitalize;
+}
+.sangria{
+    text-indent: 20px; 
+}
+.orientacion-horizontal {
+    writing-mode: horizontal-tb; /* Valor por defecto */
+}
+.orientacion-vertical {
+    writing-mode: vertical-rl;
+}
